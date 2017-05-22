@@ -1,0 +1,113 @@
+.input-area {
+  background-color: #455A64;
+  color: #eee;
+  padding: 100px; }
+  .input-area .form {
+    width: 100%; }
+  .input-area h1 {
+    font-weight: 300;
+    text-align: center;
+    margin-top: 0; }
+  .input-area .input-grp {
+    padding: 18px 12px;
+    position: relative; }
+    .input-area .input-grp label {
+      display: inline-block;
+      width: 50%;
+      padding: 4px 8px;
+      position: absolute;
+      text-align: right;
+      padding-right: 30px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+    .input-area .input-grp input {
+      display: inline-block;
+      width: 50%;
+      max-width: 120px;
+      position: absolute;
+      text-align: right;
+      padding: 4px 8px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      background: #4b636f;
+      border: none;
+      outline: none;
+      color: #eee;
+      left: 50%;
+      font-size: 16px; }
+      .input-area .input-grp input:focus {
+        background: #57727f; }
+.details-area {
+  color: #333; }
+  .details-area table {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+    border-spacing: 0;
+    border-collapse: collapse; }
+    .details-area table thead th {
+      font-weight: 300;
+      padding: 16px 2px;
+      border-bottom: solid 1px #ccc; }
+    .details-area table tbody td {
+      font-weight: 300;
+      padding: 12px 2px; }
+    .details-area table tbody tr:hover td {
+      background-color: #eaeaea; }
+    .details-area table tbody tr.year-end td {
+      border-bottom: solid 1px #ccc; }
+    .details-area table .empty {
+      text-align: center;
+      font-weight: 300;
+      color: #8c8c8c; }
+    .details-area table .right {
+      text-align: right; }
+    .details-area table .left {
+      text-align: left; }
+    .details-area table .center {
+      text-align: center; }
+.graph-area {
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto; }
+  .graph-area .x-axis text {
+    font-weight: 300; }
+body {
+  color: #222;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  background: #f3f3f3; }
+  body .overview-area {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto 40px auto; }
+    body .overview-area:after {
+      display: block;
+      content: "";
+      clear: both; }
+    body .overview-area .item2 {
+      border-left: solid 1px #ddd;
+      border-right: solid 1px #ddd; }
+    body .overview-area .item {
+      width: 33%;
+      float: left;
+      color: #8a8a8a;
+      text-align: center;
+      padding: 16px 0px; }
+      body .overview-area .item .number {
+        font-size: 26px;
+        margin-bottom: 8px; }
+      body .overview-area .item .label {
+        font-weight: 300; }
+
+.empty {
+  font-weight: 300;
+  text-align: center;
+  width: 100%;
+  color: #8a8a8a; }
+
+/*# sourceMappingURL=site.css.map*/

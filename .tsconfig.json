@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "es2015",
+        "moduleResolution": "node",
+        "jsx": "preserve",
+        "removeComments": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "skipDefaultLibCheck": true,
+        "lib": [
+            "es6",
+            "dom"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": false,
+        "allowUnreachableCode": true
+    },
+    "exclude": [
+        "node_modules"
+    ]
+}
